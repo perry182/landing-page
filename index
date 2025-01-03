@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ước mơ lớn cùng ASK Education - Ưu đãi đặc biệt Tết">
+    <title>ASK Education - Chiến Dịch Tết</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link đến file CSS ngoài -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #ff6f61;
+            color: white;
+            text-align: center;
+            padding: 30px 0;
+        }
+        header h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+        .content {
+            text-align: center;
+            padding: 50px 20px;
+        }
+        .content h2 {
+            font-size: 2em;
+            color: #333;
+        }
+        .content p {
+            font-size: 1.2em;
+            color: #555;
+            margin-bottom: 30px;
+        }
+        .form-container {
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .form-container input[type="text"],
+        .form-container input[type="email"],
+        .form-container button {
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+            font-size: 1em;
+        }
+        .form-container button {
+            background-color: #ff6f61;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .form-container button:hover {
+            background-color: #e65c4b;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Chắp Cánh Ước Mơ Cùng ASK Education</h1>
+    <p>Khám Phá Cơ Hội Du Học Hàn Quốc & Đài Loan, Nhận Ưu Đãi Tết 50%</p>
+</header>
+
+<div class="content">
+    <h2>Ưu Đãi Đặc Biệt Dành Cho Bạn!</h2>
+    <p>Đăng ký ngay hôm nay để nhận được dịch vụ tư vấn du học với mức giá ưu đãi 50%. Tham gia Chương Trình "Dream Chain" và nhận quà tặng là khóa học tiếng miễn phí.</p>
+    
+    <div class="form-container">
+        <h3>Đăng ký Nhận Ưu Đãi</h3>
+        <form action="submit_form.php" method="POST">
+            <input type="text" name="full_name" placeholder="Họ và tên" required>
+            <input type="email" name="email" placeholder="Email của bạn" required>
+            <input type="text" name="phone" placeholder="Số điện thoại" required>
+            <button type="submit">Đăng Ký Ngay</button>
+        </form>
+    </div>
+</div>
+
+<footer>
+    <p>© 2025 ASK Education - Tất cả quyền lợi</p>
+</footer>
+
+</body>
+</html>
